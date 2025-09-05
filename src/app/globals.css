@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #0f172a; /* slate-900 */
+  --muted: #475569; /* slate-600 */
+  --brand: #0ea5e9; /* sky-500 */
+  --brand-600: #0284c7; /* sky-600 */
+  --brand-700: #0369a1; /* sky-700 */
+  --accent: #22c55e; /* green-500 */
+  --surface: #f8fafc; /* slate-50 */
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-surface: var(--surface);
+  --color-brand: var(--brand);
+  --color-brand-600: var(--brand-600);
+  --color-brand-700: var(--brand-700);
+  --color-accent: var(--accent);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --text-hero: 64px;
+  --text-hero--line-height: 1.05;
+}
+
+/* Force light mode */
+:root { color-scheme: light; }
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-geist-sans), ui-sans-serif, system-ui, -apple-system,
+    Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Arial,
+    "Apple Color Emoji", "Segoe UI Emoji";
+}
+/* Apply Poppins to interactive text per design */
+a, button, [role="button"], .btn {
+  font-family: var(--font-poppins), var(--font-geist-sans), ui-sans-serif, system-ui;
+}
+
+.container-px {
+  padding-left: clamp(16px, 5vw, 32px);
+  padding-right: clamp(16px, 5vw, 32px);
+}
+
+.section-y {
+  padding-top: clamp(48px, 8vw, 112px);
+  padding-bottom: clamp(48px, 8vw, 112px);
+}
+
+.eyebrow {
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  font-weight: 600;
+}
