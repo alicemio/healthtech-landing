@@ -1,11 +1,11 @@
 const faqs = [
   {
     q: "What do I need to apply?",
-    a: "You'll need your personal information, contact details, work experience, and any relevant certifications. Our online application form will guide you through all the required information step by step.",
+    a: "You&apos;ll need your personal information, contact details, work experience, and any relevant certifications. Our online application form will guide you through all the required information step by step.",
   },
   { 
     q: "Does this cost money?", 
-    a: "No, our application process is completely free. We don't charge any fees for job placement, credentialing, or ongoing support. Our services are funded by the healthcare facilities we partner with." 
+    a: "No, our application process is completely free. We don&apos;t charge any fees for job placement, credentialing, or ongoing support. Our services are funded by the healthcare facilities we partner with." 
   },
   { 
     q: "How much will I get paid as an LPN or TSPT?", 
@@ -13,7 +13,7 @@ const faqs = [
   },
   { 
     q: "Where are the jobs located?", 
-    a: "We have opportunities nationwide across the United States. Our positions are available in hospitals, pediatric centers, nursing homes, and other healthcare facilities in major cities and rural areas. We'll work with you to find the best location match for your preferences." 
+    a: "We have opportunities nationwide across the United States. Our positions are available in hospitals, pediatric centers, nursing homes, and other healthcare facilities in major cities and rural areas. We&apos;ll work with you to find the best location match for your preferences." 
   },
 ];
 

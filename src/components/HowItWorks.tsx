@@ -17,7 +17,7 @@ const steps = [
   { 
     step: "04", 
     title: "Receive Ongoing Support", 
-    desc: "Throughout your employment, you'll have access to one-on-one consultation and continuous guidance whenever you need it." 
+    desc: "Throughout your employment, you&apos;ll have access to one-on-one consultation and continuous guidance whenever you need it." 
   },
 ];
 

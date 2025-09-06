@@ -70,7 +70,7 @@ export default function ApplicationPage() {
     e.preventDefault();
     // Handle form submission here
     console.log("Form submitted:", formData);
-    alert("Application submitted successfully! We'll be in touch soon.");
+    alert("Application submitted successfully! We&apos;ll be in touch soon.");
   };
 
   return (
