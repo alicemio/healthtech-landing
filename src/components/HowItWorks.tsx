@@ -28,7 +28,7 @@ export default function HowItWorks() {
         <div className="text-center max-w-2xl mx-auto">
           <div className="eyebrow">How it works</div>
           <h2 className="text-3xl sm:text-4xl font-semibold tracking-tight" style={{ fontFamily: 'var(--font-poppins)' }}>Your path to healthcare success</h2>
-          <p className="mt-3 text-muted">From application to ongoing support, we're with you every step of the way.</p>
+          <p className="mt-3 text-muted">From application to ongoing support, we&apos;re with you every step of the way.</p>
         </div>
         <ol className="mt-10 grid gap-6 md:grid-cols-4">
           {steps.map((s) => (
