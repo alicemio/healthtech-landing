@@ -28,19 +28,19 @@ export default function JobsSection() {
               Discover healthcare opportunities that match your skills and career goals. Browse positions from top healthcare facilities.
             </p>
             <div className="space-y-3 mb-6">
-              <div className="flex items-center text-sm text-muted">
+              <div className="flex items-center text-base text-muted">
                 <span className="w-2 h-2 bg-brand rounded-full mr-3"></span>
-                Licensed Practical Nurse positions
+                <span><strong>Licensed Practical Nurse</strong> positions</span>
               </div>
-              <div className="flex items-center text-sm text-muted">
+              <div className="flex items-center text-base text-muted">
                 <span className="w-2 h-2 bg-brand rounded-full mr-3"></span>
-                Travel Sterile Processing Technicians
+                <span><strong>Travel Sterile Processing Technicians</strong></span>
               </div>
-              <div className="flex items-center text-sm text-muted">
+              <div className="flex items-center text-base text-muted">
                 <span className="w-2 h-2 bg-brand rounded-full mr-3"></span>
                 Flexible scheduling options
               </div>
-              <div className="flex items-center text-sm text-muted">
+              <div className="flex items-center text-base text-muted">
                 <span className="w-2 h-2 bg-brand rounded-full mr-3"></span>
                 Competitive compensation packages
               </div>
@@ -66,19 +66,19 @@ export default function JobsSection() {
               Find qualified healthcare professionals to join your team. Access a network of skilled LPNs and Sterile Processing Technicians ready to make a difference.
             </p>
             <div className="space-y-3 mb-6">
-              <div className="flex items-center text-sm text-muted">
+              <div className="flex items-center text-base text-muted">
                 <span className="w-2 h-2 bg-brand rounded-full mr-3"></span>
-                Licensed Practical Nurses
+                <span><strong>Licensed Practical Nurses</strong></span>
               </div>
-              <div className="flex items-center text-sm text-muted">
+              <div className="flex items-center text-base text-muted">
                 <span className="w-2 h-2 bg-brand rounded-full mr-3"></span>
-                Travel Sterile Processing Technicians
+                <span><strong>Travel Sterile Processing Technicians</strong></span>
               </div>
-              <div className="flex items-center text-sm text-muted">
+              <div className="flex items-center text-base text-muted">
                 <span className="w-2 h-2 bg-brand rounded-full mr-3"></span>
                 Pre-screened and verified candidates
               </div>
-              <div className="flex items-center text-sm text-muted">
+              <div className="flex items-center text-base text-muted">
                 <span className="w-2 h-2 bg-brand rounded-full mr-3"></span>
                 Quick placement process
               </div>

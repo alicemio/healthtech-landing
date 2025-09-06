@@ -1,10 +1,20 @@
 const faqs = [
   {
-    q: "Is AG Health Pro HIPAA compliant?",
-    a: "We build with privacy and security controls aligned to HIPAA. BAA available on request.",
+    q: "What do I need to apply?",
+    a: "You'll need your personal information, contact details, work experience, and any relevant certifications. Our online application form will guide you through all the required information step by step.",
   },
-  { q: "Can we migrate from our current system?", a: "Yes, we offer assisted onboarding and data import services." },
-  { q: "Do you support e-prescriptions?", a: "Yes, secure eRx is included on Growth and above." },
+  { 
+    q: "Does this cost money?", 
+    a: "No, our application process is completely free. We don't charge any fees for job placement, credentialing, or ongoing support. Our services are funded by the healthcare facilities we partner with." 
+  },
+  { 
+    q: "How much will I get paid as an LPN or TSPT?", 
+    a: "Compensation varies by location, experience, and facility type. LPNs typically earn $25-35/hour, while Travel Sterile Processing Technicians earn $20-30/hour. We provide competitive packages that often exceed larger agencies, plus comprehensive benefits." 
+  },
+  { 
+    q: "Where are the jobs located?", 
+    a: "We have opportunities nationwide across the United States. Our positions are available in hospitals, pediatric centers, nursing homes, and other healthcare facilities in major cities and rural areas. We'll work with you to find the best location match for your preferences." 
+  },
 ];
 
 export default function FAQ() {

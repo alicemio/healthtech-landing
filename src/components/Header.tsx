@@ -11,7 +11,7 @@ export default function Header() {
     <header className="sticky top-0 z-40 bg-background/80 backdrop-blur supports-[backdrop-filter]:bg-background/70 border-b border-black/5 dark:border-white/10">
       <div className="container-px mx-auto max-w-content">
         <div className="flex items-center justify-between h-16">
-          <Link href="#" className="flex items-center" aria-label="AG Health Pro home">
+          <Link href="/" className="flex items-center" aria-label="AG Health Pro home">
             <Image
               src="/logo.svg"
               alt="AG Health Pro"
@@ -23,14 +23,13 @@ export default function Header() {
           </Link>
           <nav className="hidden md:flex items-center gap-8 text-sm text-muted">
             <Link href="#services" className="hover:text-foreground">Services</Link>
-            <Link href="#about" className="hover:text-foreground">About Us</Link>
             <Link href="#how" className="hover:text-foreground">How it works</Link>
-            <Link href="#pricing" className="hover:text-foreground">Pricing</Link>
             <Link href="#faq" className="hover:text-foreground">FAQ</Link>
+            <Link href="#contact" className="hover:text-foreground">Contact Us</Link>
           </nav>
           <div className="hidden md:flex items-center gap-3">
             <Link
-              href="#cta"
+              href="/application"
               className="text-sm font-semibold px-4 py-2 rounded-md bg-[#017399] text-white hover:bg-[#017399]/90"
             >
               Get started
@@ -62,11 +61,10 @@ export default function Header() {
           <div className="md:hidden pb-4">
             <nav className="grid gap-2 text-sm">
               <Link href="#services" className="px-2 py-2 rounded hover:bg-surface">Services</Link>
-              <Link href="#about" className="px-2 py-2 rounded hover:bg-surface">About Us</Link>
               <Link href="#how" className="px-2 py-2 rounded hover:bg-surface">How it works</Link>
-              <Link href="#pricing" className="px-2 py-2 rounded hover:bg-surface">Pricing</Link>
               <Link href="#faq" className="px-2 py-2 rounded hover:bg-surface">FAQ</Link>
-              <Link href="#cta" className="px-2 py-2 rounded bg-[#017399] text-white hover:bg-[#017399]/90">Get started</Link>
+              <Link href="#contact" className="px-2 py-2 rounded hover:bg-surface">Contact Us</Link>
+              <Link href="/application" className="px-2 py-2 rounded bg-[#017399] text-white hover:bg-[#017399]/90">Get started</Link>
             </nav>
           </div>
         )}
